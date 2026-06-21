@@ -1,0 +1,41 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Agent run-state (generated per-run, not source)
+docs/agent-context/testcase.md
+docs/agent-context/element-map.md
+docs/agent-context/run-state.md
+docs/agent-context/last-run.log
+docs/agent-context/shots/
+
+# Keep the standards/conventions docs that ARE meant to be versioned:
+# docs/agent-context/java-cucumber-standards.md
+# docs/agent-context/framework-conventions.md
+# (not ignored above — only the generated run artifacts are)
+
+# Playwright
+node_modules/
+playwright-report/
+test-results/
+
+# Env/secrets
+.env
+*.env.local
